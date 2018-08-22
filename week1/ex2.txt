@@ -1,0 +1,42 @@
+    1  cd ~/week1
+    2  mkdir ~/week1
+    3  cd ~/week1/
+    4  gedit &
+    5  touch main.c
+    6  cat > main.c
+    7  echo > main.c 
+    8  gedit main.c
+    9  history > ex2.txt
+   10  PWD
+   11  pwd
+   12  ls
+   13  pwd
+   14  cd /tmp
+   15  ld
+   16  ls
+   17  cp -r /root/week1/ .
+   18  cd week1/
+   19  gcc main.c -o ex4
+   20  gcc main.c -o ex4
+   21  gcc main.c -o ex4
+   22  ./ex4
+   23  gcc main.c -o ex4
+   24  gcc main.c -o ex4
+   25  gcc main.c -o ex4
+   26  gcc main.c -o ex4
+   27  gcc main.c -o ex4
+   28  gcc main.c -o ex4
+   29  gcc main.c -o ex4
+   30  gcc main.c -o ex4
+   31  gcc main.c -o ex4
+   32  gcc main.c -o ex4
+   33  gcc main.c -o ex4
+   34  ./ex4 
+   35  echo "Hello World!"
+   36  date
+   37  sleep 3
+   38  chmod +x ex3.sh
+   39  touch ex3.sh
+   40  chmod +x ex3.sh 
+   41  bash ex3.sh 
+   42  history > ex2.txt 
