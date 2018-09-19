@@ -4,6 +4,7 @@
 
 
 #define BUFF_SIZE 10
+
 pthread_mutex_t the_mutex;
 pthread_cond_t condc, condp;
 int buffer = 0;
@@ -54,5 +55,6 @@ pthread_create(&pro, 0, producer, 0);
 pthread_join(pro, 0);
 pthread_join(con, 0); 
 pthread_cond_destroy(&condc);
-//pthread_mutex_destroy(&the_mutex);
+
+pthread_cond_destroy(&condp);
 }
