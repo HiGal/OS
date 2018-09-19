@@ -6,7 +6,6 @@ while true; do
         if [ ! -f ex2 ]; then echo 0 > ex2; fi
         count=0
         touch ex2
-        #echo $count > numbers   # needless, isn't it?
         while [[ $count != 1000 ]]; do
             count=`expr $count + 1`
             n=`tail -1 ex2`
