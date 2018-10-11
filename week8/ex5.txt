@@ -1,0 +1,3 @@
+Virtual address is an address that can be used by a process but it is an abstraction for illusion infinite memory, but it have a reference to a physical memory. 
+
+Physical address is the adress which is assigned to memory blocks in RAM.

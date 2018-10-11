@@ -1,0 +1,5 @@
+Page size = 8 KB = 2^(3+10) B
+Offset = log(8 * 1024) = 13 bits
+Number of virtual pages = 2^(16 – 13) = 2^3 = 8  
+8 pages -> 8 entries 
+

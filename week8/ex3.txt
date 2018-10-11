@@ -1,0 +1,7 @@
+
+
+PID    COMMAND          %CPU TIME     #TH   #WQ #PORTS MEM    PURG   CMPRS  PGRP  PPID  STATE    BOOSTS      %CPU_ME %CPU_OTHRS UID FAULTS    COW      MSGSENT    MSGRECV    SYSBSD     SYSMACH    CSW        PAGEINS  IDLEW    POWER INSTRS CYCLES USER               #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+ 
+27591  ex2              0.0  00:00.01 1     0   10+    10M+   0B     0B     27591 27011 sleeping *0[1+]      0.00000 0.00000    501 2938+     94+      25+        12+        104+       50+        9+         1+       0        0.0   0      0      faritgaleev        N/A    N/A   N/A   N/A   N/A   N/A  
+
+27591  ex2              0.6  00:00.02 1     0   10     20M+   0B     0B     27591 27011 sleeping *0[1]       0.00000 0.00000    501 5498+     94       27+        13+        105+       52+        11+        1        1+        0.7   7669402   17035935  faritgaleev        N/A    N/A   N/A   N/A   N/A   N/A  
