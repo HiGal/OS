@@ -1,0 +1,1 @@
+We can have the set of the same numbers. That means that we will have 9999/1 hit/miss ratio because of emptyness of table initially. If we will have all different numbers in dataset then we will get 0/1000 hit/miss ratio. Therefore, we can conclude that we need create dataset with the same numbers as more as we can to increase hit/miss ratio and otherwise to decrease.

@@ -40,9 +40,10 @@ int main(void)
 	int request_counter = 0;
 	int hit_counter = 0;
 
+	fscanf(file_path,"%d", &request);
+	request_counter++;
 	while(!feof(file_path)){
-		fscanf(file_path,"%d", &request);
-		request_counter++;
+		
 		if(PageTable[request].valid == false){
 			FrameTable[ftable_counter].page_number = request;
 			PageTable[request].valid = true;
@@ -56,11 +57,12 @@ int main(void)
 		if(ftable_counter == frames){
 			break;
 		}
-	}
 
-	while(!feof(file_path)){
 		fscanf(file_path,"%d", &request);
 		request_counter++;
+	}
+
+	while(fscanf(file_path, "%d", &request) != EOF){
 		increase_age(frames);
 		if (PageTable[request].valid == false){
 			int old_page = old_index(frames);
