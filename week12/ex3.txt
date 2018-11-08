@@ -1,0 +1,9 @@
+If increase buffer the time for copying will decrease and vice versa, by decreasing the buffer size the time for copying will increase.
+
+If O_SYNC added, then I/O becomes syncrhoronous and copy time increases.
+If we tweak buffer size with O_SYNC on we can see that the time will act the same as when O_SYNC was off, though the time it takes to copy will increase to greater values then before.
+
+The number of syscalls required to copy a file decrease/increase depending when changing the buffer size. Since the syscalls have high cost, decreasing their number will increase our performance.
+
+When changing O_SYNC flag we make read/write synchronous therefore after each syscall
+we will wait until the information has been written for file, thus drastically increasing execution time.
